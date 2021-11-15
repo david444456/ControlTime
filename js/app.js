@@ -22,7 +22,9 @@ const audio2 = document.getElementById("audio2");
 let intervalTimeVar = null;
 
 //main
-eventListeners();
+document.addEventListener("DOMContentLoaded", () =>{
+    eventListeners();
+})
 
 //events
 function eventListeners() {
