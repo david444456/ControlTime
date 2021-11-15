@@ -1,0 +1,110 @@
+:root{
+    --colorBackGroundLightGreen :rgb(96, 204, 96) ;
+    --colorBackGroundDarkGreen : rgb(80, 110, 87);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--colorBackGroundDarkGreen);
+}
+
+/* pomodoro */
+.count-pomodoro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-countdown{
+    height: 800px;
+    margin-top:  calc(50vh - 400px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: var(--colorBackGroundLightGreen);
+    border-radius: 50px;
+}
+
+.countdown{
+    font-size: 8em;
+}
+
+button{
+    font-size: 2em;
+    margin: 10px 15px;
+
+    padding: 10px;
+    background-color: aqua;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-counting-time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counting-text{
+    margin: 15px 30px 0;
+    font-size: 3em;
+
+    margin-bottom: 35px;
+}
+
+.box-countdown h2{
+    background-color: var(--colorBackGroundDarkGreen);
+
+    margin: 50px 50px 0;
+    border-radius: 25px;
+    padding: 50px;
+
+    color: var(--colorBackGroundLightGreen);
+    font-size: 4em;
+    text-align: center;
+}
+
+.button-return{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100px;
+    height: 100px;
+    font-size: 3em;
+    text-align: center;
+
+    margin: 20px;
+
+    border-radius: 10px;
+    background-color: aqua;
+
+    transform: rotate(180deg);
+}
+
+.button-return:hover{
+    background-color: var(--colorBackGroundLightGreen);
+}
+
+.button-return a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}   
+
+.button-return a i{
+    color: var(--colorBackGroundDarkGreen);
+}
